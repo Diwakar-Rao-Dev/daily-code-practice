@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(194, 132, 19);
+            padding: 15px;
+        }
+        .nav-item{
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .nav-item a{
+            position: relative;
+        }
+        .nav-item a::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            background-color: rgb(182, 8, 8);
+            transition: width 0.3s ease;
+        }
+        .nav-item a:hover::after{
+            width: 100%;
+        }
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 10px;
+            border: 1px solid white;
+        }
+        .btn:hover{
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../asset/photo/dk logo edit.jpg" alt="logo" height="30px" width="30px">
+        </div>
+        <nav class="navbar">
+            <ul class="nav-item">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </nav>
+        <button class="btn">+91 9100000001</button>
+    </header>
+</body>
+</html>
