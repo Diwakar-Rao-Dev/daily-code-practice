@@ -14,8 +14,16 @@
             display: flex;
             gap: 20px;
             padding: 20px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .content img{
+            border-radius: 20px;
         }
         .content:hover{
+            transform: scale(1.2);
             transform: rotate(2deg);
         }
     </style>
@@ -29,7 +37,7 @@
             <img src="../photo/pexels-evandro-meneses-1785956001-35195911.jpg" alt="" height="300px" width="250px">
         </div>
         <div class="content">
-            <img src="../photo/pexels-ishahidsultan-8544887 - Copy.jpg" alt="" height="300px" width="250px">
+            <img src="../photo/pexels-ishahidsultan-8544887.jpg" alt="" height="300px" width="250px">
         </div>
         <div class="content">
             <img src="../photo/pexels-julia-lee-1148675-7792825.jpg" alt="" height="300px" width="250px">

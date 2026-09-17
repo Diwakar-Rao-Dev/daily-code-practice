@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .zoom-image{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            padding: 20px;
+        }
+        .zoom-image:hover{
+            transform: scale(1.01);
+        }
+    </style>
+</head>
+<body>
+    <div class="zoom-image">
+        <img src="../photo/pexels-julia-lee-1148675-7792825.jpg" alt="photo" height="400px" width="300px">
+    </div>
+</body>
+</html>
