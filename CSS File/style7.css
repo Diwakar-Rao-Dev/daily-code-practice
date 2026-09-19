@@ -1,0 +1,63 @@
+.container{
+            display: flex;
+            justify-content: space-around;
+            gap: 24px;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            animation: movebox 4s infinite;
+        }
+        @keyframes movebox {
+            from{
+                transition: translateY(0);
+            }
+            to{
+                transform: translateY(430px);
+            }
+        }
+        .box1{
+            height: 200px;
+            width: 200px;
+            margin-top: 33%;
+            background-color: red;
+            animation: movebox1 4s infinite;
+        }
+        @keyframes movebox1{
+            from{
+                transition: translateY(0);
+            }
+            to{
+                transform: translateY(-430px);
+            }
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            animation: movebox2 4s infinite;
+        }
+        @keyframes movebox2{
+            from{
+                transition: translateY(0);
+            }
+            to{
+                transform: translateY(430px);
+            }
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            margin-top: 33%;
+            background-color: red;
+            animation: movebox3 4s infinite;
+        }
+        @keyframes movebox3 {
+            from{
+                transition: translateY(0);
+            }
+            to{
+                transform: translateY(-430px);
+            }
+        }
