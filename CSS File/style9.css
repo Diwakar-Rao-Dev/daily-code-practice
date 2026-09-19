@@ -1,0 +1,105 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgba(212, 174, 3, 0.514);
+        }
+        header{
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+        }
+        .list-item{
+            list-style: none;
+            display: flex;
+            gap: 24px;
+        }
+        a{
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            /* background-color:  salmon;
+            padding: 8px 18px;
+            border-radius: 10px; */
+        }
+        .list-item a{
+            position: relative;
+        }
+        .list-item a::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            background-color: rgb(197, 184, 3);
+            transition: width 0.3s ease;
+        }
+        .list-itema:hover::after{
+            width: 100%;
+        }
+        .btn1{
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 400px;
+            border-radius: 20px;
+        }
+        .btn1:hover{
+            transform: translateY(-3px);
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 30px;
+            padding: 50px;
+        }
+        .box1{
+            height: 300px;
+            width: 250px;
+            background-color: orangered;
+            padding: 50px;
+            animation: movebox1 8s ease;
+        }
+        @keyframes movebox1{
+            form{
+                transition: translateY(0);
+            }
+            to{
+                transform: translateY(500px);
+            }
+        }
+        .box2{
+            height: 300px;
+            width: 250px;
+            background-color: white;
+            padding: 50px;
+            animation: movebox2 8s ease;
+        }
+         @keyframes movebox2{
+            form{
+                transition: translateY(0);
+            }
+            to{
+                transform: translateY(500px);
+            }
+        }
+        .box3{
+            height: 300px;
+            width: 250px;
+            background-color: green;
+            padding: 50px;
+            animation: movebox3 8s ease;
+        }
+         @keyframes movebox3{
+            form{
+                transition: translateY(0);
+            }
+            to{
+                transform: translateY(500px);
+            }
+        }
