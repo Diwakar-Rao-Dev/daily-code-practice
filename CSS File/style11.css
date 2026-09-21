@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(248, 203, 1);
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+.list-item{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+}
+.list-item a{
+    position: relative;
+}
+.list-item a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+.list-item a:hover::after{
+    width: 100%;
+}
+.btn{
+    padding: 6px 12px;
+    background-color: rgb(78, 78, 202);
+    color: white;
+    border-radius: 18px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    background-color: tomato;
+    animation: movebox1 6s infinite;
+}
+@keyframes movebox1{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateX(330px);
+    }
+} 
+.box2{
+    height: 250px;
+    width: 250px;
+    margin-top: 23%;
+    background-color: tomato;
+    animation: movebox2 3s infinite;
+}
+/* @keyframes movebox2{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(230px);
+    }
+} */
+.box3{
+    height: 250px;
+    width: 250px;
+    background-color: tomato;
+    margin-top: 23%;
+    animation: movebox3 3s infinite;
+}
+/* @keyframes movebox3{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(230px);
+    }
+} */
+.box4{
+    height: 250px;
+    width: 250px;
+    background-color: tomato;
+    animation: movebox4 6s infinite;
+}
+@keyframes movebox4{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateX(-330px);
+    }
+}
