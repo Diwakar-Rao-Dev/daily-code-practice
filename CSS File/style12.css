@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(133, 4, 4);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px;
+}
+.list-item{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: 700;
+}
+.list-item a{
+    position: relative;
+}
+.list-item a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+.list-item a:hover::after{
+    width: 100%;
+}
+.btn{
+    padding: 6px 12px;
+    background-color: rgb(238, 240, 239);
+    color: rgb(2, 1, 1);
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    background-color: tomato;
+    animation: movebox1 5s infinite;
+}
+@keyframes movebox1{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(340px) translateX(340px);
+    }
+} 
+.box2{
+    height: 250px;
+    width: 250px;
+    margin-top: 23%;
+    background-color: teal;
+    animation: movebox2 3s infinite;
+}
+@keyframes movebox2{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(-310px);
+    }
+} 
+.box3{
+    height: 250px;
+    width: 250px;
+    background-color: palegreen;
+    margin-top: 23%;
+    animation: movebox3 3s infinite;
+}
+@keyframes movebox3{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(-310px);
+    }
+} 
+.box4{
+    height: 250px;
+    width: 250px;
+    background-color: darkorange;
+    animation: movebox4 5s infinite;
+}
+@keyframes movebox4{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(340px) translateX(-340px);
+    }
+}
