@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: teal;
+    animation: movebox1 9s infinite;
+}
+@keyframes movebox1{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(330px);
+    }
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    margin-top: 25%;
+    background-color: tomato;
+    animation: movebox2 9s infinite;
+}
+@keyframes movebox2{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(-330px);
+    }
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    margin-top: 25%;
+    background-color: fuchsia;
+    animation: movebox3 9s infinite;
+}
+@keyframes movebox3{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(-330px);
+    }
+}
+.box4{
+    height: 300px;
+    width: 300px;
+    background-color: palegreen;
+    animation: movebox4 9s infinite;
+}
+@keyframes movebox4{
+    from{
+        transition: translate(0);
+    }
+    to{
+        transform: translateY(330px);
+    }
+}
