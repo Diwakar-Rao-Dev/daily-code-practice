@@ -59,7 +59,7 @@ a{
         transition: translate(0);
     }
     to{
-        transform: translateX(330px);
+        transform: translateX(340px);
     }
 } 
 .box2{
@@ -103,6 +103,6 @@ a{
         transition: translate(0);
     }
     to{
-        transform: translateX(-330px);
+        transform: translateX(-340px);
     }
 }
