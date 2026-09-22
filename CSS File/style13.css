@@ -1,0 +1,57 @@
+ .conntainer{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        @keyframes moveBox1 {
+            from {
+                transition: translateY(0);
+            }
+            to {
+                transform: translateY(400px);
+            }
+        }
+        .box1{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            background-color: salmon;
+            animation: movebox1 3s infinite;
+        }
+        @keyframes moveBox1 {
+            from {
+                transition: translateY(0);
+            }
+            to {
+                transform: translateY(400px);
+            }
+        }
+        .box2{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            background-color: paleturquoise;
+            animation: movebox2 3s infinite;
+        }
+        @keyframes moveBox2 {
+            from {
+                transition: translateY(0);
+            }
+            to {
+                transform: translateY(400px);
+            }
+        }
+        .box3{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            background-color: teal;
+            animation: movebox3 3s infinite;
+        }
+        @keyframes moveBox3 {
+            from {
+                transition: translateY(0);
+            }
+            to {
+                transform: translateY(400px);
+            }
+        }
