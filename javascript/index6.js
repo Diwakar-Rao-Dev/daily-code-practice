@@ -32,36 +32,58 @@
 
 
 
-let age = 20
-let citizen = true
+// let age = 20
+// let citizen = true
 
-if (age >= 18 && citizen ){
-        console.log("eligible for vote");
+// if (age >= 18 && citizen ){
+//         console.log("eligible for vote");
 
+// } else {
+//         console.log( "not eligible for vote");
+
+// }
+
+
+
+// let age2 = 12;
+// let  haslicence = true;
+
+// if (age2 >= 18 && haslicence) {
+//     console.log("drive");
+// } else {
+//     console.log("not drive");
+// }
+
+
+
+// let attendence = 80
+// let fees = false
+// if (attendence >= 75 && fees) {
+//     console.log("eligible for exam");
+// } else {
+//     console.log("not eligible exam");
+// }
+
+
+
+let student = 45
+let seniorcitizen = 60
+
+if (student <= 25 || seniorcitizen >= 60) {
+    console.log("eligible for discount")
 } else {
-        console.log( "not eligible for vote");
-
+    console.log("not eligible for discount")
 }
 
 
 
-let age2 = 12;
-let  haslicence = true;
 
-if (age2 >= 18 && haslicence) {
-    console.log("drive");
+let loggedin = true 
+if (loggedin) {
+    console.log("user loggedin");
 } else {
-    console.log("not drive");
+    console.log("user not loggedin");
 }
 
-
-
-let attendence = 80
-let fees = false
-if (attendence >= 75 && fees) {
-    console.log("eligible for exam");
-} else {
-    console.log("not eligible exam");
-}
 
 
