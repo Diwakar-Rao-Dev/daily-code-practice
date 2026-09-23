@@ -1,4 +1,8 @@
-// let a =  15
+//  let age = 18
+//  let data = (age >= 18)? ("adult"):("minor")
+//  console.log(data);// let a =  15
+
+
 // let b = 22
 // let data =(a > b)? ("greater"):("not greater")
 // console.log(data);
