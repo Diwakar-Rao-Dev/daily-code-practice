@@ -13,6 +13,11 @@
 // console.log(data);
 
 
-let loggined = true
-let data = (loggined)? ("loggedin"):("not loggedin")
+// let loggined = true
+// let data = (loggined)? ("loggedin"):("not loggedin")
+// console.log(data);
+
+
+let a = 55 
+let data = (55 % 5 == 0)? ("divide"):("not divided")
 console.log(data);
