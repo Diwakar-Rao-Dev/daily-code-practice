@@ -26,7 +26,7 @@ console.log("invalid day");
 } */  
 
 
-let month = 8
+/* let month = 8
 switch(month){
     case 1:
         console.log("jan");
@@ -66,6 +66,30 @@ switch(month){
         break;
 default:
 console.log("invilid month");
+} */
+
+
+
+let month = 4
+switch(month){
+    case 1:
+        console.log("grade A");
+        break;
+    case 2:
+        console.log("grade B");
+        break;
+    case 3:
+        console.log("grade C");
+        break;
+    case 4:
+        console.log("grade D");
+        break;
+    case 5:
+        console.log("grade E");
+        break;
+    case 6:
+        console.log("grade F");
+        break;
+default:
+console.log("invilid month");
 } 
-
-

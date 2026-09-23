@@ -78,12 +78,12 @@
 
 
 
-// let loggedin = true 
-// if (loggedin) {
-//     console.log("user loggedin");
-// } else {
-//     console.log("user not loggedin");
-// }
+let loggedin = true 
+if (loggedin) {
+    console.log("user loggedin");
+} else {
+    console.log("user not loggedin");
+}
 
 
 
