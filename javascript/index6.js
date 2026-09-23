@@ -32,28 +32,36 @@
 
 
 
-// let a = 19
-// let b = "voterid"
+let age = 20
+let citizen = true
 
-// if (a >= 16 && voterid ){
-//         console.log("eligible for vate");
+if (age >= 18 && citizen ){
+        console.log("eligible for vote");
 
-// } else {
-//         console.log( "not eligible for vote");
+} else {
+        console.log( "not eligible for vote");
 
-// }
+}
 
 
 
-let a = 18
-let b = "license"
+let age2 = 12;
+let  haslicence = true;
 
-if (a >= 18 && licence) {
+if (age2 >= 18 && haslicence) {
     console.log("drive");
 } else {
     console.log("not drive");
 }
 
 
+
+let attendence = 80
+let fees = false
+if (attendence >= 75 && fees) {
+    console.log("eligible for exam");
+} else {
+    console.log("not eligible exam");
+}
 
 
