@@ -13,6 +13,6 @@
 // console.log(data);
 
 
-let loggined = false
-let data = ()? ("loggedin"):("not loggedin")
-console.log(data
+let loggined = true
+let data = (loggined)? ("loggedin"):("not loggedin")
+console.log(data);
