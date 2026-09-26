@@ -23,7 +23,7 @@ switch(day){
         break;
 default:
 console.log("invalid day");
-} */  
+} */
 
 
 /* let month = 8
@@ -95,7 +95,7 @@ console.log("result");
 } */
 
 
-let singnal = "c"
+/* let singnal = "c"
 switch (singnal){
     case "a":
         console.log("red");
@@ -108,5 +108,29 @@ switch (singnal){
         break;
     default:
     console.log("invailied singnal");
-} 
+} */
+
+
+
+let a = "10";
+let b = "10";
+let operator = "+";
+
+switch (operator) {
+    case "+":
+        console.log("a+b");
+        break;
+    case "-":
+        console.log("a-b");
+        break;
+    case "*":
+        console.log("a*b");
+        break;
+    case "/":
+        console.log("a/b");
+        break;
+    default:
+    console.log("invalid operator");
+}
+
 
