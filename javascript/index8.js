@@ -70,26 +70,27 @@ console.log("invilid month");
 
 
 
-let month = 4
-switch(month){
-    case 1:
-        console.log("grade A");
+let grade = 'C'
+switch(grade){
+    case 'A':
+        result = ("vvv good");
         break;
-    case 2:
-        console.log("grade B");
+    case 'B':
+        result = ("vv good");
         break;
-    case 3:
-        console.log("grade C");
+    case 'C':
+        result = ("v good");
         break;
-    case 4:
-        console.log("grade D");
+    case 'D':
+        result = ("good");
         break;
-    case 5:
-        console.log("grade E");
+    case 'E':
+        result = ("pass");
         break;
-    case 6:
-        console.log("grade F");
+    case 'F':
+        result = ("fail");
         break;
 default:
-console.log("invilid month");
+console.log("result");
 } 
+
