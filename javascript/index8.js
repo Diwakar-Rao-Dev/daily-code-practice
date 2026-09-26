@@ -70,7 +70,7 @@ console.log("invilid month");
 
 
 
-let grade = 'C'
+/* let grade = 'C'
 switch(grade){
     case 'A':
         result = ("vvv good");
@@ -92,5 +92,21 @@ switch(grade){
         break;
 default:
 console.log("result");
+} */
+
+
+let singnal = "c"
+switch (singnal){
+    case "a":
+        console.log("red");
+        break;
+    case "b":
+        console.log("yellow");
+        break;
+    case "c":
+        console.log("green");
+        break;
+    default:
+    console.log("invailied singnal");
 } 
 
