@@ -54,9 +54,17 @@
 
 
 
-let factorial = 1;
+// let factorial = 1;
  
-for (let i = 1; i <= 5; i++){
-    factorial = factorial * i;
+// for (let i = 1; i <= 5; i++){
+//     factorial = factorial * i;
+// }
+// console.log("Factorial =", factorial);
+
+
+
+for (i = 1; i <=100; i++){
+    if(i % 3 == 0 && i % 5 == 0){
+        console.log(i);
+    }
 }
-console.log("Factorial =", factorial);
