@@ -63,8 +63,15 @@
 
 
 
-for (i = 1; i <=100; i++){
-    if(i % 3 == 0 && i % 5 == 0){
-        console.log(i);
-    }
+// for (i = 1; i <=100; i++){
+//     if(i % 3 == 0 && i % 5 == 0){
+//         console.log(i);
+//     }
+// }
+
+
+
+let num = Number(prompt("Enter a number:"));
+for (let i = 1; i <=10; i++){
+    console.log(num + " x " + i +" = " + (num * i));
 }
