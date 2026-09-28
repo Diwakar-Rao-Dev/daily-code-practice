@@ -1,19 +1,16 @@
-// a = 10
-// b = 5
-// console.log(a+b);
-
-
-// a = 25
-// b = 10
-// console.log(a-b);
+for (let i = 1; i <= 100; i++){
+    if(i % 3 == 0 && i % 5 == 0){
+    console.log(i);
+    }
+}
 
 
 
-// a = 5
-// b = 5
-// console.log(a*b);
+ for (let i = 1; i <=100; i++){
+    if(i % 3 == 0 && i % 5 == 0){
+        console.log(i);
+    }
+}
 
 
-a = 25
-b = 5
-console.log(a/b);
+

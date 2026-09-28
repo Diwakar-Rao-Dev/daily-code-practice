@@ -53,11 +53,11 @@
 
 
 
-let factorial = 10;
-for (i = 10; i <= 20; i++){
-    factorial = factorial * i;
-}
-console.log("factorial =", factorial);
+// let factorial = 10;
+// for (i = 10; i <= 20; i++){
+//     factorial = factorial * i;
+// }
+// console.log("factorial =", factorial);
 
 
 
