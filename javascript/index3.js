@@ -34,18 +34,36 @@
 
 
 
-let factorial = 1;
+// let factorial = 1;
  
-for (let i = 1; i <= 5; i++){
+// for (let i = 1; i <= 5; i++){
+//     factorial = factorial * i;
+// }
+// console.log("Factorial =", factorial);
+
+
+
+
+// let factorial2 = 5;
+// for (i = 5; i <= 10; i++){
+//     factorial = factorial * i;
+// }
+// console.log("factorial =", factorial);
+
+
+
+
+let factorial = 10;
+for (i = 10; i <= 20; i++){
     factorial = factorial * i;
 }
-console.log("Factorial =", factorial);
+console.log("factorial =", factorial);
 
 
 
 
-let factorial2 = 5;
-for (i = 5; i <= 10; i++){
+let factorial2 = 10;
+for (i = 10; i <= 100; i++){
     factorial = factorial * i;
 }
 console.log("factorial =", factorial);
