@@ -73,10 +73,22 @@
 
 
 
+// for (let i = 1; i <= 10; i++){
+//     console.log(`8 * ${i} = ${8 * i}`);
+// }
+
+
+
+
 for (let i = 1; i <= 10; i++){
-    console.log(`8 * ${i} = ${8 * i}`);
+    console.log(`2 * ${i} = ${2 * i}`);
 }
 
+
+
+for (let i = 1; i <= 10; i++){
+    console.log(`3 * ${i} = ${3 * i}`);
+}
 
 
 
