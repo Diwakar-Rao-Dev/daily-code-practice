@@ -71,7 +71,16 @@
 
 
 
-let num = Number(prompt("Enter a number:"));
-for (let i = 1; i <=10; i++){
-    console.log(num + " x " + i +" = " + (num * i));
+
+
+for (let i = 1; i <= 10; i++){
+    console.log(`8 * ${i} = ${8 * i}`);
 }
+
+
+
+
+// let num = Number(prompt("Enter a number:"));
+// for (let i = 1; i <=10; i++){
+//     console.log(num + " x " + i +" = " + (num * i));
+// }
