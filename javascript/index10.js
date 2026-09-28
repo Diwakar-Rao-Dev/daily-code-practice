@@ -124,18 +124,37 @@ while(i <= 100){
 
 
 
-let iseven = (number)=>{
-    return number % 2 == 0? "even" : "odd"
+// let iseven = (number)=>{
+//     return number % 2 == 0? "even" : "odd"
+// }
+// console.log(iseven(4));
+// console.log(iseven(5));
+
+
+
+// function findmax(a,b){
+//     return a > b ? a : b;
+// }
+// console.log(findmax(23,5));
+
+
+
+
+
+let area = function(lengh , width){
+    return lengh * width;
 }
-console.log(iseven(4));
-console.log(iseven(5));
+console.log(area(4,5));
 
 
-
-function findmax(a,b){
-    return a > b ? a : b;
+let greet = function(){
+    return console.log("hello DK");
 }
-console.log(findmax(23,5));
+greet()
+
+
+
+
 
 
 
