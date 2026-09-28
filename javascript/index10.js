@@ -108,18 +108,34 @@ while(i <= 100){
 // console.log(add(3,3));
 
 
-function add(a,b){
-    return a+b
+// function add(a,b){
+//     return a+b
+// }
+// console.log(add(2,3));
+
+
+
+// let squre = function(number) {
+//     return number * number;
+// };
+// console.log(squre(5));
+
+
+
+
+
+let iseven = (number)=>{
+    return number % 2 == 0? "even" : "odd"
 }
-console.log(add(2,3));
+console.log(iseven(4));
+console.log(iseven(5));
 
 
 
-let squre = function(number) {
-    return number * number;
-};
-console.log(squre(5));
-
+function findmax(a,b){
+    return a > b ? a : b;
+}
+console.log(findmax(23,5));
 
 
 
