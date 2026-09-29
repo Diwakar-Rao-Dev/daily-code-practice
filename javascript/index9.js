@@ -80,17 +80,30 @@
 
 
 
+// for (let i = 1; i <= 10; i++){
+//     console.log(`2 * ${i} = ${2 * i}`);
+// }
+
+
+
+// for (let i = 1; i <= 10; i++){
+//     console.log(`3 * ${i} = ${3 * i}`);
+// }
+
+
+
+
 for (let i = 1; i <= 10; i++){
-    console.log(`2 * ${i} = ${2 * i}`);
+    console.log(`4 * ${i} = ${i * 4}`);
 }
 
 
 
+
+
 for (let i = 1; i <= 10; i++){
-    console.log(`3 * ${i} = ${3 * i}`);
+    console.log(`5 * ${i} = ${i * 5}`);
 }
-
-
 
 // let num = Number(prompt("Enter a number:"));
 // for (let i = 1; i <=10; i++){
