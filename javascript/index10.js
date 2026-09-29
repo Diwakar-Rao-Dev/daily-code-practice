@@ -23,12 +23,12 @@
 
 
 
-let i = 1;
-while(i <= 100){
-    if(i % 2 == 0 && i % 4 == 0)
-    console.log(i);
-    i++;
-}
+// let i = 1;
+// while(i <= 100){
+//     if(i % 2 == 0 && i % 4 == 0)
+//     console.log(i);
+//     i++;
+// }
 
 
 
@@ -141,19 +141,16 @@ while(i <= 100){
 
 
 
-let area = function(lengh , width){
-    return lengh * width;
-}
-console.log(area(4,5));
+// let area = function(lengh , width){
+//     return lengh * width;
+// }
+// console.log(area(4,5));
 
 
-let greet = function(){
-    return console.log("hello DK");
-}
-greet()
-
-
-
+// let greet = function(){
+//     return console.log("hello DK");
+// }
+// greet()
 
 
 
