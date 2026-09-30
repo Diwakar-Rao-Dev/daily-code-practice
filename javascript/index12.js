@@ -36,5 +36,13 @@
 
 
 
-let  = ["mango","apple","boy","dog"]
+// let name = "Diwakar Rao";
+// console.log(name.length);
 
+
+
+
+let names = ["diwakwr","ashish","krishna","anurag"];
+for(let name of names ){
+    console.log(name, name.length);
+}
