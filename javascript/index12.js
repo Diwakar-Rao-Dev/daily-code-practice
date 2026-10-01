@@ -170,15 +170,45 @@
 
 
 
-let product = ["mobail","laptop","tab","redio"]
-let data = product.map(product=> product.toUpperCase())
+        /* home work  */
+
+
+
+// let product = ["mobail","laptop","tab","redio"]
+// let data = product.map(product=> product.toUpperCase())
+// console.log(data);
+
+
+
+// let user = [{name:"diwakar", age: 23},
+//     {name:"ashish", age:23},
+//     {name:"aman", age:24}
+// ]
+// let data2 = user.map(user=> `${user.name} - ${user.age}`);
+// console.log(data2);
+
+
+
+
+let product = [
+    {name:"mobail", price:25000, quantity:2},
+    {name:"laptop", price:50000, quantity:1},
+    {name:"tab", price:15000, quantity:2}
+]
+let data = product.map(product=> product.price*product.quantity)
 console.log(data);
 
 
 
-let user = [{name:"diwakar", age: 23},
-    {name:"ashish", age:23},
-    {name:"aman", age:24}
-]
-let data2 = user.map(user=> `${user.name} - ${user.age}`);
-console.log(data2);
+
+let students = [
+  { name: "Rahul", marks: [80, 70, 90] },
+  { name: "Aman", marks: [60, 75, 80] },
+  { name: "Riya", marks: [90, 85, 95] }
+];
+
+let result = students.map(student =>
+  student.marks.reduce((total, mark) => total + mark, 0)
+);
+
+console.log(result);
