@@ -60,7 +60,9 @@ btn.addEventListener("click", function(){
     </script>  -->
 
 
-    <input type="text" id="input" placeholder="Enter info">
+
+
+<!--    <input type="text" id="input" placeholder="Enter info">
     <button id="btn">show</button>
 
     <h2 id="result"></h2>
@@ -73,7 +75,23 @@ btn.addEventListener("click", function(){
         btn.addEventListener("click", function() {
             result.textContent = input.value;
         });
-    </script>
+    </script>  -->
+
+
+
+    
+<p id="para">This paragraph will be hidden.</p>
+
+<button id="hide">Hide</button>
+
+<script>
+  let para = document.getElementById("para");
+  let hide = document.getElementById("hide");
+
+  hide.addEventListener("click", function () {
+    para.style.display = "none";
+  });
+</script>
 </body>
 
 </html>
