@@ -38,7 +38,7 @@ btn.addEventListener("click", function(){
 
  <!-- 3. Create a paragrbaph and two buttons: Red and Blue. Clicking Red should change the paragraph text color to red, and clicking Blue should change it to blue. -->
 
-    <p id="para">This is a paragraph</p>
+<!--    <p id="para">This is a paragraph</p>
 
 
     <button id="red">red</button>
@@ -57,7 +57,23 @@ btn.addEventListener("click", function(){
         blue.addEventListener("click", function () {
             para.style.color = "blue";
         });
-    </script> 
+    </script>  -->
+
+
+    <input type="text" id="input" placeholder="Enter info">
+    <button id="btn">show</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+        let input = document.getElementById("input");
+        let text = document.getElementById("text");
+        let btn = document.getElementById("btn");
+
+        btn.addEventListener("click", function() {
+            result.textContent = input.value;
+        });
+    </script>
 </body>
 
 </html>
