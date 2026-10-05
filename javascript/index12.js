@@ -190,25 +190,56 @@
 
 
 
-let product = [
-    {name:"mobail", price:25000, quantity:2},
-    {name:"laptop", price:50000, quantity:1},
-    {name:"tab", price:15000, quantity:2}
+// let product = [
+//     {name:"mobail", price:25000, quantity:2},
+//     {name:"laptop", price:50000, quantity:1},
+//     {name:"tab", price:15000, quantity:2}
+// ]
+// let data = product.map(product=> product.price*product.quantity)
+// console.log(data);
+
+
+
+
+// let students = [
+//   { name: "Rahul", marks: [80, 70, 90] },
+//   { name: "Aman", marks: [60, 75, 80] },
+//   { name: "Riya", marks: [90, 85, 95] }
+// ];
+
+// let result = students.map(student =>
+//   student.marks.reduce((total, mark) => total + mark, 0)
+// );
+
+// console.log(result);
+
+
+
+
+// let employee = [
+//     {name:"aman", salary:18000},
+//     {name:"alok", salary:24000},
+//     {name:"rudra", salary:20000}
+// ]
+// let data = employee.map(employee=> employee.salary*1.1)
+// console.log(data);
+
+
+
+
+
+let num = [5,3,9,6,2,8]
+let data2 = num.map(num=> num%2==0 ? num*2 : num*3)
+console.log(data2
+
+
+let user = [
+    {name:"diwakar", gmail:"diwakar@gmail.com"},
+    {name:"ashish", gmail:"ashish@gmail.com"}
 ]
-let data = product.map(product=> product.price*product.quantity)
-console.log(data);
-
-
-
-
-let students = [
-  { name: "Rahul", marks: [80, 70, 90] },
-  { name: "Aman", marks: [60, 75, 80] },
-  { name: "Riya", marks: [90, 85, 95] }
-];
-
-let result = students.map(student =>
-  student.marks.reduce((total, mark) => total + mark, 0)
-);
-
-console.log(result);
+let data3 = user.map(user=> 
+    ({name:user.name
+      gmail:user.gmail
+    })
+    )
+    console.log(data3);
