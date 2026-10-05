@@ -23,7 +23,7 @@
 
     <!-- 2. Create an <h2> and a button. When the button is clicked, change the <h2> text to "Welcome to DOM" using textContent. -->
      
-<h1 id="title">Hello</h1>
+<!--  <h1 id="title">Hello</h1>
 <button id="btn">change</button>
 
 
@@ -33,9 +33,31 @@ const btn = document.getElementById("btn")
 btn.addEventListener("click", function(){
     title.textContent = "Welcome to Dom"
 })
-</script> 
+</script>   -->
 
 
+ <!-- 3. Create a paragrbaph and two buttons: Red and Blue. Clicking Red should change the paragraph text color to red, and clicking Blue should change it to blue. -->
+
+    <p id="para">This is a paragraph</p>
+
+
+    <button id="red">red</button>
+    <button id="blue">blue</button>
+
+    <script>
+        let para = document.getElementById("para");
+        let red = document.getElementById("red");
+        let blue = document.getElementById("blue");
+        ""
+        red.addEventListener("click", function () {
+            para.style.color = "red";
+        });
+
+
+        blue.addEventListener("click", function () {
+            para.style.color = "blue";
+        });
+    </script> 
 </body>
 
 </html>
