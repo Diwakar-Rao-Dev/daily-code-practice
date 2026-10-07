@@ -9,7 +9,7 @@
 
 <body>
 
- <!--   <h1 class="head">hello</h1>
+    <!--   <h1 class="head">hello</h1>
     <button id="btn"> button </button>
 
 
@@ -22,8 +22,8 @@
     </script> -->
 
     <!-- 2. Create an <h2> and a button. When the button is clicked, change the <h2> text to "Welcome to DOM" using textContent. -->
-     
-<!--  <h1 id="title">Hello</h1>
+
+    <!--  <h1 id="title">Hello</h1>
 <button id="btn">change</button>
 
 
@@ -36,9 +36,9 @@ btn.addEventListener("click", function(){
 </script>   -->
 
 
- <!-- 3. Create a paragrbaph and two buttons: Red and Blue. Clicking Red should change the paragraph text color to red, and clicking Blue should change it to blue. -->
+    <!-- 3. Create a paragrbaph and two buttons: Red and Blue. Clicking Red should change the paragraph text color to red, and clicking Blue should change it to blue. -->
 
-<!--    <p id="para">This is a paragraph</p>
+    <!--    <p id="para">This is a paragraph</p>
 
 
     <button id="red">red</button>
@@ -62,7 +62,7 @@ btn.addEventListener("click", function(){
 
 
 
-<!--    <input type="text" id="input" placeholder="Enter info">
+    <!--    <input type="text" id="input" placeholder="Enter info">
     <button id="btn">show</button>
 
     <h2 id="result"></h2>
@@ -79,8 +79,8 @@ btn.addEventListener("click", function(){
 
 
 
-    
-<!--   <p id="para">This paragraph will be hidden.</p>
+
+    <!--   <p id="para">This paragraph will be hidden.</p>
 
 <button id="hide">Hide</button>
 
@@ -96,7 +96,7 @@ btn.addEventListener("click", function(){
 
 
 
-<!--    <p id="para">this is paragraph</p>
+    <!--    <p id="para">this is paragraph</p>
 
 <button id="btn">change</button>
 
@@ -112,7 +112,7 @@ btn.addEventListener("click", function () {
 
 
 
-<!--  <h1 id="font">Diwakar Rao</h1>
+    <!--  <h1 id="font">Diwakar Rao</h1>
 
 <script>
     let font = document.getElementById("font");
@@ -124,7 +124,7 @@ btn.addEventListener("click", function () {
 
 
 
-<!-- 
+    <!-- 
 <button id="btn">add item</button>
 
  <ul id="list"></ul>
@@ -142,7 +142,7 @@ btn.addEventListener("click", function () {
  </script> -->
 
 
-
+    <!-- 
  <input type="text" id="nameInput" placeholder="Enter your name">
 <button id="btn">Submit</button>
 
@@ -160,8 +160,34 @@ btn.addEventListener("click", function () {
       result.textContent = "Hello, " + input.value;
     }
   });
-</script>
+</script> -->
 
+
+
+
+
+    <button id="btn">Toggle Theme</button>
+
+    <div id="box">
+        This is my box.
+    </div>
+
+    <style>
+        .dark {
+            background-color: black;
+            color: white;
+            padding: 30px;
+        }
+    </style>
+
+    <script>
+        let btn = document.getElementById("btn");
+        let box = document.getElementById("box");
+
+        btn.addEventListener("click", function () {
+            box.classList.toggle("dark");
+        });
+    </script>
 
 
 </body>
