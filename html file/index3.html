@@ -142,6 +142,25 @@ btn.addEventListener("click", function () {
  </script> -->
 
 
+
+<button id="btn">Add Name</button>
+
+<ul id="list"></ul>
+
+<script>
+    let btn = document.getElementById("btn");
+    let list = document.getElementById("list");
+
+    btn.addEventListener("click", function () {
+        let li = document.createElement("li");
+
+        li.textContent = "Diwakar";
+
+        list.appendChild(li);
+    });
+</script>
+
+
     <!-- 
  <input type="text" id="nameInput" placeholder="Enter your name">
 <button id="btn">Submit</button>
@@ -165,7 +184,7 @@ btn.addEventListener("click", function () {
 
 
 
-
+<!-- 
     <button id="btn">Toggle Theme</button>
 
     <div id="box">
@@ -187,7 +206,7 @@ btn.addEventListener("click", function () {
         btn.addEventListener("click", function () {
             box.classList.toggle("dark");
         });
-    </script>
+    </script> -->
 
 
 </body>
