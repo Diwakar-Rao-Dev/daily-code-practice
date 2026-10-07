@@ -112,7 +112,7 @@ btn.addEventListener("click", function () {
 
 
 
-<h1 id="font">Diwakar Rao</h1>
+<!--  <h1 id="font">Diwakar Rao</h1>
 
 <script>
     let font = document.getElementById("font");
@@ -120,7 +120,28 @@ btn.addEventListener("click", function () {
     font.addEventListener("click", function () {
         font.style.fontSize = "50px";
     });
-</script>
+</script>   -->
+
+
+
+
+<button id="btn">add item</button>
+
+ <ul id="list"></ul>
+ <script>
+    let btn = document.getElementById("btn");
+    let list = document.getElementById("list");
+
+    btn.addEventListener("click", function () {
+        let li = document.createElement("li");
+    
+        li.textContent = "new item";
+
+        list.appendChild(li);
+    });
+
+    
+ </script>
 
 
 
