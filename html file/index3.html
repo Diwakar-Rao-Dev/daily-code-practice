@@ -124,7 +124,7 @@ btn.addEventListener("click", function () {
 
 
 
-
+<!-- 
 <button id="btn">add item</button>
 
  <ul id="list"></ul>
@@ -138,10 +138,29 @@ btn.addEventListener("click", function () {
         li.textContent = "new item";
 
         list.appendChild(li);
-    });
+    });   
+ </script> -->
 
-    
- </script>
+
+
+ <input type="text" id="nameInput" placeholder="Enter your name">
+<button id="btn">Submit</button>
+
+<h2 id="result"></h2>
+
+<script>
+  let input = document.getElementById("nameInput");
+  let btn = document.getElementById("btn");
+  let result = document.getElementById("result");
+
+  btn.addEventListener("click", function () {
+    if (input.value.trim() === "") {
+      result.textContent = "Please enter your name";
+    } else {
+      result.textContent = "Hello, " + input.value;
+    }
+  });
+</script>
 
 
 
