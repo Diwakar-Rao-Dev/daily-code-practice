@@ -141,9 +141,7 @@ btn.addEventListener("click", function () {
     });   
  </script> -->
 
-
-
-<button id="btn">Add Name</button>
+<!--   <button id="btn">Add Name</button>
 
 <ul id="list"></ul>
 
@@ -158,7 +156,27 @@ btn.addEventListener("click", function () {
 
         list.appendChild(li);
     });
+</script> -->
+
+
+
+<button id="btn">Add Full Name</button>
+
+<ul id="list"></ul>
+
+<script>
+    let btn = document.getElementById("btn");
+    let list = document.getElementById("list");
+
+    btn.addEventListener("click", function () {
+        let li = document.createElement("li");
+
+        li.textContent = "Diwakar Rajput";
+
+        list.appendChild(li);
+    })
 </script>
+
 
 
     <!-- 
