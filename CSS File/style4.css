@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     display: flex;
     justify-content: space-evenly;
@@ -40,4 +45,51 @@ li a{
 }
 .list-item li a:hover::after{
     width: 100%;
+}
+body{
+    background-image: url('../photo/pexels-julia-lee-1148675-7792825.jpg');
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.sec1{
+    padding: 40px;
+    margin-left: 60px;
+}
+.para1{
+    color: white;
+}
+.head1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.head2{
+    color: gold;
+    font-size: 40px;
+    font-weight: 600;
+}
+.spn2{
+    color: rgba(218, 33, 1, 0.877);
+    font-weight: 600;
+}
+.para2{
+    width: 300px;
+    font-size: 16px;
+    color: white;
+}
+.btn1{
+    background: linear-gradient(30deg, pink,red,yellow);
+    height: 46px;
+    width: 200px;
+    color: white;
+    border-radius: 50px;
+}
+.btn2{
+    background: none;
+    height: 46px;
+    width: 200px;
+    color: white;
+    border-radius: 50px;
+}
+.div1{
+    padding-top: 20px;
 }
