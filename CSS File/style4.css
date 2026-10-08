@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 16px;
+}
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.spn{
+    color: rgb(235, 152, 0);
+}
+.list-item{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.list-item li a{
+    position: relative;
+}
+.list-item li a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    background-color: rgb(214, 165, 1);
+    transition: width 0.3s ease;
+}
+.list-item li a:hover::after{
+    width: 100%;
+}
