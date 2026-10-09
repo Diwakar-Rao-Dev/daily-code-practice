@@ -93,3 +93,16 @@ body{
 .div1{
     padding-top: 20px;
 }
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-div{
+    height: 280px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
