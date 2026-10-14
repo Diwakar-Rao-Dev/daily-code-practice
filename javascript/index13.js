@@ -87,15 +87,14 @@
 
 
 
-const student = [
-    {"name":"diwakar", "marks":60},
-    {"name":"E", "marks":70},
-    {"name":"D", "marks":30},
-    {"name":"C", "marks":60},
-    {"name":"B", "marks":80},
-    {"name":"A", "marks":40}
-]
-student.filter((student)=> student.marks>60).forEach(student=>){
-console.log(student);
-}
-
+// const student = [
+//     {"name":"diwakar", "marks":60},
+//     {"name":"E", "marks":70},
+//     {"name":"D", "marks":30},
+//     {"name":"C", "marks":60},
+//     {"name":"B", "marks":80},
+//     {"name":"A", "marks":40}
+// ]
+// student.filter((student)=> student.marks>60).forEach(student=>){
+// console.log(student);
+// }
