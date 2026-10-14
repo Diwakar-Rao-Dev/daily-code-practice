@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with active Link</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: white;
+        }
+        .para{
+            background-color: rgba(72, 72, 104, 0.589);
+            padding: 10px;
+        }
+        header{
+            background-color: rgb(231, 218, 218);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .nav-item{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        a:hover{
+            color: blue;
+        }
+        .nav-item a{
+            position: relative;
+        }
+        .nav-item a::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            background-color: blue;
+            animation: width 0.3s ease;
+        }
+        .nav-item a:hover::after{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <p class="para">1. Navbar with active Link</p>
+    <header>
+        <div>LoGo</div>
+        <nav class="Navbar">
+            <ul class="nav-item">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
